@@ -17,7 +17,7 @@ export default function HeroSection() {
         src={ANBImage}
         alt="ANB Brand"
        className="absolute inset-0 w-full h-full  opacity-70 "
-      />
+      />ddd
 
       {/* Overlay */}
       <div className="absolute inset-0  bg-opacity-40" />
