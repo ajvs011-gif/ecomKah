@@ -22,6 +22,7 @@ const Login = () => {
       if (error) throw error;
       if (data?.url) {
         window.location.href = data.url; // redirige vers Google
+          // toast.error(" ");
       }
     } catch (error) {
       console.error("Erreur de connexion :", error.message);

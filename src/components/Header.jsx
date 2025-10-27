@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import Logo from "../assets/log-anb.jpg";
+// import Logo from "../assets/log-anb.jpg";
 import { useSelector } from "react-redux";
 import userImg from "../assets/user.png";
 import { FaShoppingCart } from "react-icons/fa";
@@ -37,7 +37,7 @@ const Header = () => {
         {/* ✅ Logo animé */}
         <Link to="/">
           <motion.img
-            src={Logo}
+            src='/images/log-anb.jpg'
             alt="logo"
             width={70}
             height={70}

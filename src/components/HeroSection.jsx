@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import ANBImage from "../assets/ANB1.jpg";
+// import ANBImage from "../assets/ANB1.jpg";
 import ShopCollection from "./ShopCollection"; // <-- Assure-toi que le chemin est correct
-
 export default function HeroSection() {
   const [showProducts, setShowProducts] = useState(false);
   const navigate = useNavigate();
@@ -14,10 +13,10 @@ export default function HeroSection() {
       {/* Image en background */}
       
       <img
-        src={ANBImage}
+        src="/images/ANB1.jpg"
         alt="ANB Brand"
        className="absolute inset-0 w-full h-full  opacity-70 "
-      />ddd
+      />
 
       {/* Overlay */}
       <div className="absolute inset-0  bg-opacity-40" />

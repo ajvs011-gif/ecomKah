@@ -13,7 +13,7 @@ const products = [
   { 
     id: 1, 
     name: "Casquette ANB", 
-    image: "src/assets/ANB-casquette.jpg", 
+    image: "images/ANB-casquette.jpg", 
     prix: 5000, 
     description: "Casquette tendance en coton, 100% africaine.", 
     category: "Accessoires",
@@ -29,7 +29,7 @@ const products = [
   { 
     id: 2, 
     name: "T-Shirt ANB", 
-    image: "src/assets/ANB-tshirt.jpg", 
+    image: "images/ANB-tshirt.jpg", 
     prix: 15000, 
     originalPrix: 18000,
     description: "Un t-shirt 100% coton de qualité supérieure.", 
@@ -45,7 +45,7 @@ const products = [
   { 
     id: 3, 
     name: "Sac artisanal", 
-      image: "src/assets/ANB back.jpg", 
+      image: "images/ANB back.jpg", 
     prix: 8000, 
     description: "Sac fait main, durable et élégant.", 
     category: "Sacs",
@@ -60,7 +60,7 @@ const products = [
   { 
     id: 4, 
     name: "Shirt + Casquette", 
-   image: "src/assets/anb2.jpg", 
+   image: "images/anb2.jpg", 
     prix: 25000, 
     originalPrix: 30000,
     description: "Combo stylé shirt + casquette.", 
@@ -76,7 +76,7 @@ const products = [
   { 
     id: 5, 
     name: "Chemise ANB", 
-      image: "src/assets/anb3.jpg",   
+      image: "images/anb3.jpg",   
     prix: 18000, 
     description: "Chemise premium africaine.", 
     category: "Vêtements",
@@ -91,7 +91,7 @@ const products = [
   { 
     id: 6, 
     name: "Foot Wear", 
-     image: "src/assets/anb4.jpg",  
+     image: "images/anb4.jpg",  
     prix: 35000, 
     description: "Chaussures décontractées de qualité.", 
     category: "Chaussures",
@@ -106,7 +106,7 @@ const products = [
   { 
     id: 7, 
     name: "Polo Noir", 
-       image: "src/assets/anb-polo.jpg", 
+       image: "images/anb-polo.jpg", 
     prix: 22000, 
     description: "Polo chic en coton africain.", 
     category: "Vêtements",
@@ -121,7 +121,7 @@ const products = [
   { 
     id: 8, 
     name: "Sac Noir", 
-       image: "src/assets/anb-sac-noir.jpg", 
+       image: "images/anb-sac-noir.jpg", 
     prix: 12000, 
     description: "Sac pratique et moderne.", 
     category: "Sacs",
@@ -135,7 +135,7 @@ const products = [
   { 
     id: 9, 
     name: "Veste ANB", 
-        image: "src/assets/ANB-VESTE.jpg", 
+        image: "images/ANB-VESTE.jpg", 
     prix: 28000, 
     prix: 45000, 
     description: "Veste de qualité, style africain.", 
@@ -151,7 +151,7 @@ const products = [
   { 
     id: 10, 
     name: "Sac de Voyage", 
-   image: "src/assets/sac-de-voyage.jpg", 
+   image: "images/sac-de-voyage.jpg", 
     prix: 28000, 
     originalPrix: 32000,
     description: "Sac de voyage robuste et élégant.", 
@@ -166,7 +166,7 @@ const products = [
   { 
     id: 11, 
     name: "T-shirt blanc", 
-      image: "src/assets/shirt.jpg", 
+      image: "images/shirt.jpg", 
     prix: 16000, 
     description: "T-shirt blanc stylé.", 
     category: "T-shirts",
@@ -183,7 +183,7 @@ const products = [
   { 
     id: 12, 
     name: "Sac Noir Premium", 
-      image: "src/assets/ANB-black.jpg", 
+      image: "images/ANB-black.jpg", 
     prix: 24000, 
     description: "Sac élégant pour toutes occasions.", 
     category: "Sacs",
@@ -197,7 +197,7 @@ const products = [
   { 
     id: 13, 
     name: "Sac Doré", 
-       image: "src/assets/anb-bac-vert.jpg", 
+       image: "images/anb-bac-vert.jpg", 
     prix: 32000, 
     description: "Sac doré luxueux fabriqué en Afrique.", 
     category: "Sacs",
@@ -212,7 +212,7 @@ const products = [
   { 
     id: 14, 
     name: "Collection Femme", 
-      image: "src/assets/anb-woman.jpg",  
+      image: "images/anb-woman.jpg",  
     prix: 38000, 
     description: "Mode femme africaine raffinée.", 
     category: "Vêtements",
@@ -228,7 +228,7 @@ const products = [
     { 
     id: 15, 
     name: "ANB-SAC-HOMME", 
-      image: "src/assets/ANB-sac1.jpeg", 
+      image: "images/ANB-sac1.jpeg", 
     prix: 10000, 
     description: "sac homme noir bien stylé.", 
     category: "SACS",
@@ -243,7 +243,7 @@ const products = [
      { 
     id: 16, 
     name: "ANB-SAC-DE-SPORT", 
-      image: "src/assets/ANB-sac2.jpeg", 
+      image: "images/ANB-sac2.jpeg", 
     prix: 10000, 
     description: "Sac homme pour sport.", 
     category: "SACS",
@@ -258,7 +258,7 @@ const products = [
      { 
     id: 17, 
     name: "ANB-SAC-CUIR", 
-      image: "src/assets/ANB-sac3.jpeg", 
+      image: "images/ANB-sac3.jpeg", 
     prix: 10000, 
     description: "sac en cuir  stylé.", 
     category: "SACS",
@@ -273,7 +273,7 @@ const products = [
        { 
     id: 18, 
     name: "ANB-SAC-HOMME", 
-      image: "src/assets/ANB-sac4.jpeg", 
+      image: "images/ANB-sac4.jpeg", 
     prix: 10000, 
     description: "Sac homme stylé à porter.", 
     category: "SACS",
@@ -288,7 +288,7 @@ const products = [
     { 
     id: 19, 
     name: "ANB-SAC-FEMME", 
-      image: "src/assets/ANB-sac-5.jpeg", 
+      image: "images/ANB-sac-5.jpeg", 
     prix: 10000, 
     description: "Sac femme tissé à la main.", 
     category: "SACS",
@@ -303,7 +303,7 @@ const products = [
    { 
     id: 19, 
     name: "ANB-SAC-DAME", 
-      image: "src/assets/ANB-sac-6.jpeg", 
+      image: "images/ANB-sac-6.jpeg", 
     prix: 10000, 
     description: "Sac à main dame bleu.", 
     category: "SACS",
@@ -318,7 +318,7 @@ const products = [
      { 
     id: 20, 
     name: "ANB-ustensiles", 
-      image: "src/assets/ANB-assiette-tradi.jpeg", 
+      image: "images/ANB-assiette-tradi.jpeg", 
     prix: 10000, 
     description: "les ustensiles fais à l'africain.", 
     category: "SACS",
@@ -355,7 +355,7 @@ const categories = [
   const filteredProducts = useMemo(() => {
     let filtered = products.filter(product => {
       const matchesSearch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           product.description.toLowerCase().includes(searchTerm.toLowerCase());
+       product.description.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesCategory = selectedCategory === "all" || product.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
@@ -706,7 +706,7 @@ const categories = [
                 <div className="flex justify-between items-start mb-4">
                   <h2 className="text-2xl font-bold text-gray-900">
 
-                    {selectedProduct.name}
+                    {selectedProduct.name}  
 
                   </h2>
                   <button
